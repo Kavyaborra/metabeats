@@ -1,0 +1,193 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image:url(../images/background-image-dark.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px){
+    .navbar{
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .top-nav-collapse{
+        padding: 0;
+    }
+
+}
+
+/*navigation bar styling*/
+.navbar-default .navbar-nav  li > a:focus,
+.navbar-default .navbar-nav  li > a:hover{
+    color: #66FFE6;
+    box-shadow: none;
+    background-color: transparent !important;
+}
+.navbar-default .navbar-nav  li > a{
+    color: #66FFE6;
+}
+.navbar-default li .page-scroll{
+    font-size: 18px;
+    color: #66FFE6;
+    font-family: ubuntu;
+}
+.navbar-default .navbar-header .navbar-toggle{
+    background-color: transparent;
+    border: none;
+}
+.navbar-default .navbar-brand{
+    font-size: 32px;
+    color: #66FFE6;
+    font-family: "Ubuntu", sans-serif !important;
+}
+.navbar-default .navbar-brand:hover{
+    color: #66FFE6;
+}
+.navbar-default{
+    background: transparent;
+    background-image: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+.navbar-default .navbar-header .navbar-toggle .icon-bar{
+    background: linear-gradient(to right, #50F78D 0%, #6FC6F1 100%);
+    width: 30px;
+    height: 4px;
+}
+
+/*font imports*/
+@font-face{
+    font-family: ubuntu;
+    src:url(../fonts/ubuntu/Ubuntu-M.ttf);
+}
+@font-face{
+    font-family: ubuntu-light;
+    src:url(../fonts/ubuntu/Ubuntu-R.ttf);
+}
+
+/*section styling */
+.intro-section{
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+.about-section{
+    height: 40%;
+    padding-top: 150px;
+    text-align: center;
+    background: linear-gradient(to right, #50F78D 0%, #6FC6F1 100%);
+}
+.search-section{
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+.social-section{
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+.social-section .social > a .fa-facebook-square{
+    color: white;
+    transition: 300ms;
+}
+.social-section .social > a .fa-instagram{
+    color: white;
+    transition: 300ms;
+}
+.social-section .social > a .fa-linkedin-square{
+    color: white;
+    transition: 300ms;
+}
+
+/*button styling*/
+.btn{
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white !important;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #50F78D 0%, #6FC6F1 51%, #50F78D 100%);
+    font-size: 20px;
+    font-family: ubuntu;
+}
+.btn:hover{
+    background-position: right center;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    padding-top: 200px;
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    color: white;
+    font-family: ubuntu;
+    font-size: 25px;
+}
+#information{
+    color:white;
+}
+
+/*input and search section styling*/
+input[type=text]{
+    margin-top: 210px;
+    width:70%;
+    border: 1px  #66FFCF;
+    padding: 16px 14px;
+    border-radius: 6px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    font-size: 20px;
+    font-family: ubuntu-light;
+    align-items: center;
+    border:none;
+    box-sizing: border-box;
+}
+input[type=text]::after{
+
+}
+input[type=text]:hover{
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    border:none;
+}
+input[type=text]::after:hover{
+
+}
+input[type=submit]{
+    align-items: center;
+    width: 130px;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white !important;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #50F78D 0%, #6FC6F1 51%, #50F78D 100%);
+    font-size: 20px;
+    font-family: ubuntu;
+    border: none;
+}
+input[type=submit]:hover{
+    background-position: right center;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+}

@@ -83,7 +83,7 @@ html{
 /*section styling */
 .intro-section{
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
 }
 #information{
@@ -266,6 +266,10 @@ input[type=submit]:hover{
     display: -webkit-flex;
     justify-content: center;
 }
+.intro-section .header {
+    padding-top: 200px;
+}
+
 
 
 

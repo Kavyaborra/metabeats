@@ -87,6 +87,7 @@ html{
     text-align: center;
 }
 #information{
+    margin-top: 100px;
     padding: 100px 25px 100px 25px;
     color: white;
     font-family: ubuntu-light;

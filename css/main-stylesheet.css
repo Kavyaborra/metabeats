@@ -87,7 +87,7 @@ html{
     text-align: center;
 }
 #information{
-    padding: 50px 25px 50px 25px;
+    padding: 100px 25px 100px 25px;
     color: white;
     font-family: ubuntu-light;
     background: linear-gradient(to right, #50F78D 0%, #6FC6F1 100%);

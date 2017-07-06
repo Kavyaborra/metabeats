@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>MetaBeats</title>
@@ -17,7 +18,7 @@
     <script src="js/scrolling-nav.js"></script>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header page-scroll">
@@ -27,14 +28,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">MetaBeats</a>
+                <a class="navbar-brand page-scroll" href="#page-top">MetaBeats<span class="asterisk">*</span></a>
             </div>
             <div class="collapse navbar-collapse navbar-l-collapse">
                 <ul class="nav navbar-nav">
                     <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
                     <li><a class="page-scroll" id="bt2" href="#search">Search</a></li>
-                    <li><a class="page-scroll" id="bt3" href="#services">APIs</a></li>
-                    <li><a class="page-scroll" id="bt4" href="#social">Social</a></li>
+                    <li><a class="page-scroll" id="bt4" href="social.html">Social</a></li>
+                    <li><a class="page-scroll" id="bt3" href="#services">Suggestions</a></li>
                 </ul>
             </div>
         </div>
@@ -42,51 +43,24 @@
 
     <section id="intro" class="intro-section">
         <div class="container-fluid">
-            <h1 class="header">MetaBeats</h1>
+            <h1 class="header">MetaBeats*</h1>
             <p class="para">The most accurate metadata for your music.</p>
-            <a class="start-button btn page-scroll" href="#search">Get Started</a>
+            <a class="start-button btn dfltstyle page-scroll" href="#search">Get Started</a>
         </div>
     </section>
 
-    <section id="about" class="about-section">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 information">
-                    <p id="information">
-                        MetaBeats helps you find perfect album covers, artist names, genre, year of release etc
-                        for your music library. No more scraping the internet for Meta information!
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <p id="information">
+        MetaBeats helps you find perfect album covers, artist names, genre, year of release etc
+        for your music library. No more scraping the internet for Meta information!
+    </p>
 
     <section id="search" class="search-section">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <div id="input" class="container"><input type="text" placeholder="search"/></div>
+                    <div id="input" class="container"><input type="text" placeholder="Search for song or album name"/><i class="fa fa-search" aria-hidden="true"></i></div>
                     <br/>
                     <div id="search" class="container"><input type="submit" value="search"/></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="social" class="social-section">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p id="information">
-                        Social.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="container-fluid social">
-                    <a href="https://www.facebook.com/XshreyasguptaX"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/awwmaaigawwd/"><i class="fa fa-instagram fa-4x"  aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/shreyas-gupta/"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>

@@ -26,8 +26,7 @@ html{
 
 /*navigation bar styling*/
 .navbar-default .navbar-nav  li > a:focus,
-.navbar-default .navbar-nav  li > a:hover
-{
+.navbar-default .navbar-nav  li > a:hover{
     color: #66FFE6;
     box-shadow: none;
     background: none !important;
@@ -112,6 +111,10 @@ html{
     padding-top: 500px;
     text-align: center;
 }
+.search-section-display{
+    height: 100%;
+    text-align: center;
+}
 .social-brand{
     color: #66FFE6;
     font-weight: bolder;
@@ -131,7 +134,8 @@ html{
 
 /*button styling*/
 .dfltstyle{
-    width: 150px;
+    align-items: center;
+    width: 155px;
     flex: 1 1 auto;
     margin: 10px;
     padding: 15px;
@@ -143,7 +147,7 @@ html{
     background-image: linear-gradient(to right, #50F78D 0%, #6FC6F1 51%, #50F78D 100%);
     font-size: 20px;
     font-family: ubuntu;
-    position: absolute;
+    border: none;
 }
 .dfltstyle:hover{
     background-position: right center;
@@ -205,7 +209,7 @@ input[type=text]{
     font-size: 20px;
     font-family: ubuntu-light;
     align-items: center;
-    border:none;
+    border: none;
     box-sizing: border-box;
 }
 input[type=text]::after{
@@ -214,38 +218,20 @@ input[type=text]::after{
     width: 100%;
     height: 100%;
     opacity: 0;
-    border-radius: 5px;
+    border-radius: 6px;
     -webkit-transition: opacity 300ms ease-in-out;
     -moz-transition:  opacity 300ms ease-in-out;
 }
 input[type=text]:hover{
     -webkit-transform: scale(1.25);
     -moz-transform: scale(1.25);
-    border:none;
+    border: none;
 }
 input[type=text]::after:hover{
     opacity: 1;
 }
-input[type=submit]{
-    align-items: center;
+.search-btn{
     width: 130px;
-    flex: 1 1 auto;
-    margin: 10px;
-    padding: 15px;
-    text-align: center;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white !important;
-    border-radius: 8px;
-    background-image: linear-gradient(to right, #50F78D 0%, #6FC6F1 51%, #50F78D 100%);
-    font-size: 20px;
-    font-family: ubuntu;
-    border: none;
-}
-input[type=submit]:hover{
-    background-position: right center;
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
 }
 .flex-container{
     padding-top: 100px;
@@ -255,7 +241,6 @@ input[type=submit]:hover{
     flex-direction: row;
     -webkit-flex-direction: row;
     justify-content: center;
-
 }
 .flex-item{
     padding: 20px;
@@ -269,7 +254,18 @@ input[type=submit]:hover{
 .intro-section .header {
     padding-top: 200px;
 }
-
-
-
-
+.contributors .row h2{
+    text-align: center;
+    color: white;
+    font-family: ubuntu-light;
+}
+.basetemplate{
+    margin: 200px 100px 200px 100px;
+    padding: 100px 100px;
+    background-color: white;
+    border-radius: 4px;
+}
+.basetemplate .row h3, .basetemplate .row p {
+    color: black;
+    font-family: ubuntu-light;
+}
